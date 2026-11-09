@@ -1,17 +1,14 @@
 public class Estudiante {
-    // 1. Atributos privados
     private String nombre;
     private int edad;
     private double notaPromedio;
 
-    // Constructor
     public Estudiante(String nombre, int edad, double notaPromedio) {
         setNombre(nombre);
         setEdad(edad);
         setNotaPromedio(notaPromedio);
     }
 
-    // 2. Métodos Getters y Setters con validaciones
     public String getNombre() {
         return nombre;
     }
