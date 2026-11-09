@@ -1,8 +1,10 @@
+package taller4;
+
 public class PruebaCoche {
     public static void main(String[] args) {
         Coche miCoche = new Coche("Toyota", "Corolla", 180.0);
 
-        System.out.println("--- Prueba de Coche ---");
+        System.out.println("--- Prueba de taller4.Coche ---");
         System.out.println("Marca: " + miCoche.getMarca());
         System.out.println("Velocidad Inicial: " + miCoche.getVelocidadMaxima() + " km/h");
 
@@ -13,9 +15,9 @@ public class PruebaCoche {
         /*
          3. DEMOSTRACIÓN DE ERROR DE COMPILACIÓN:
          Si descomentas las siguientes líneas, Java mostrará un error de compilación
-         porque los atributos son privados y no pueden accederse directamente fuera de la clase Coche.
+         porque los atributos son privados y no pueden accederse directamente fuera de la clase taller4.Coche.
         */
-        // miCoche.marca = "Nissan";            // Error: marca has private access in Coche
-        // miCoche.velocidadMaxima = 250.0;     // Error: velocidadMaxima has private access in Coche
+        // miCoche.marca = "Nissan";            // Error: marca has private access in taller4.Coche
+        // miCoche.velocidadMaxima = 250.0;     // Error: velocidadMaxima has private access in taller4.Coche
     }
 }

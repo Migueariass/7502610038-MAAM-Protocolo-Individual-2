@@ -1,3 +1,5 @@
+package taller4;
+
 class Usuario {
     private String claveSecreta;
 
@@ -14,7 +16,7 @@ class ArchivoProtegido {
     }
 }
 
-public class PruebaEjercicio3 {
+class PruebaEjercicio3 {
     public static void main(String[] args) {
         Usuario usuario = new Usuario("12345Password");
 
