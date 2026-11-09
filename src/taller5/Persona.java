@@ -1,4 +1,4 @@
-package taller5.persona;
+package taller5;
 
 public class Persona {
     private String nombre;

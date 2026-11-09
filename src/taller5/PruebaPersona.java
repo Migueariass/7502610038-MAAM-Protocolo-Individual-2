@@ -1,4 +1,4 @@
-package taller5.persona;
+package taller5;
 
 public class PruebaPersona {
     public static void main(String[] args) {

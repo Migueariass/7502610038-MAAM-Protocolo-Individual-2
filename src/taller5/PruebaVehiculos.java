@@ -1,7 +1,6 @@
-package taller5.pruebas;
+package taller5;
 
 import taller5.vehiculos.Moto;
-import taller5.vehiculos.Vehiculo;
 
 public class PruebaVehiculos {
     public static void main(String[] args) {
